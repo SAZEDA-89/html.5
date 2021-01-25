@@ -1,0 +1,31 @@
+nav{
+    height: 50px;
+    background-color: burlywood;
+    line-height: 30px;
+    font-size: 25px;}
+    
+nav li:hover{
+    background-color: coral;
+    }
+nav li{
+    list-style: none;
+    
+    padding: 10px;}
+    nav > ul > li{
+        float: left;
+    }
+    .dropdown{
+        display: none;
+    }
+    nav > ul > li:hover > ul{
+        display: block;
+        position: absolute;
+        background-color: aqua;
+        padding: 0;
+
+    }
+
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
